@@ -11,8 +11,7 @@ function reduce(arr) {
       answer = answer.concat(` `);
     } else {
       let splitWord = arr[i].split('');
-      answer = answer.concat(splitWord[splitWord.length - 1].toUpperCase());
-      
+      answer = answer.concat(splitWord[splitWord.length - 1].toUpperCase());     
     }
   }
   return answer;
